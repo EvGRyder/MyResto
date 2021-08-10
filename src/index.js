@@ -22,6 +22,7 @@ bodish.style.margin = "0px"
 const nevvi = document.createElement('nav')
 nevvi.style.width = "100%"
 nevvi.style.display = "flex"
+nevvi.style.flexWrap = "wrap"
 nevvi.style.margin = "0px"
 nevvi.style.padding = "10px 0px 10px 0px"
 nevvi.style.justifyContent = "space-evenly"
