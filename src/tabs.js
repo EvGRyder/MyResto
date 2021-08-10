@@ -1,6 +1,6 @@
 function navButtonGen(namen) {
     const newButton = document.createElement('button')
-    newButton.style.padding = "10px 35px 10px 35px"
+    newButton.style.padding = "10px 15px 10px 15px"
     newButton.style.backgroundColor = "black"
     newButton.style.color = "white"
     newButton.style.borderRadius = "60px"
