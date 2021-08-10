@@ -2,10 +2,9 @@ function contentPage() {
     const contentContent = document.createElement('main')
 
     const work = document.createElement('div')
-
-    const element = document.createElement('header')
-    element.textContent = "This be the HEEDER"
-    work.appendChild(element)
+    work.style.display = "flex"
+    work.style.flexDirection = "column"
+    work.style.alignItems = "center"
 
     const tootle = document.createElement('h1')
     tootle.textContent = "Resto La Weed Presto"
@@ -14,16 +13,13 @@ function contentPage() {
 
     const desc = document.createElement('section')
     desc.textContent = "This resto is the most lit in the land"
+    desc.style.textAlign = "center"
     work.appendChild(desc)
 
-    const snoop = document.createElement('div')
-    snoop.textContent = "Have a snoop"
-    work.appendChild(snoop)
-
-    const snoopPic = document.createElement('img')
-    snoopPic.src = "https://st2.depositphotos.com/5326338/7977/i/950/depositphotos_79779166-stock-photo-rapper-snoop-dogg.jpg"
-    snoopPic.height = "300"
-    work.appendChild(snoopPic)
+    const weedPic = document.createElement('img')
+    weedPic.src = "https://upload.wikimedia.org/wikipedia/commons/a/a8/Cannabis_leaf.svg"
+    weedPic.height = "300"
+    work.appendChild(weedPic)
 
     contentContent.appendChild(work)
     contentContent.id = "frontpage"

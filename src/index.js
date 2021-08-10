@@ -11,7 +11,8 @@ hotl.style.height = "100%"
 
 // Body
 const bodish = document.querySelector('body')
-bodish.style.backgroundColor = "#99C68E"
+bodish.style.background = "linear-gradient(#006600, 75%, #70483c)"
+bodish.style.backgroundAttachment = "fixed"
 bodish.style.display = "flex"
 bodish.style.flexDirection = "column"
 bodish.style.height = "98%"
@@ -20,7 +21,7 @@ bodish.style.height = "98%"
 const nevvi = document.createElement('nav')
 nevvi.style.width = "auto"
 nevvi.style.display = "flex"
-nevvi.style.justifyContent = "flex-start"
+nevvi.style.justifyContent = "center"
 
 
 let contentContent = contentPage()
@@ -41,6 +42,7 @@ nevvi.appendChild( contactButton )
 // Content Slice
 const main = document.getElementById('content')
 main.style.display = "flex"
+main.style.justifyContent = "center"
 main.style.width = "auto"
 main.style.flexGrow = "1"
 
