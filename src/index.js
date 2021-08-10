@@ -21,6 +21,7 @@ bodish.style.margin = "0px"
 // Navigation
 const nevvi = document.createElement('nav')
 nevvi.style.width = "100%"
+nevvi.style.height = "5%"
 nevvi.style.display = "flex"
 nevvi.style.flexWrap = "wrap"
 nevvi.style.margin = "0px"

@@ -1,9 +1,12 @@
 function navButtonGen(namen) {
     const newButton = document.createElement('button')
-    newButton.style.padding = "10px 25px 10px 25px"
+    newButton.style.padding = "10px auto 10px auto"
+    newButton.style.margin = "0px 10px 0px 10px"
     newButton.style.backgroundColor = "black"
     newButton.style.color = "white"
     newButton.style.borderRadius = "60px"
+    newButton.style.flexGrow = "1"
+    newButton.style.maxWidth = "150px"
     newButton.textContent = namen
     newButton.addEventListener('click', () => console.log(namen))
 
