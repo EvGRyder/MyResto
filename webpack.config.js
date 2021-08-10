@@ -4,10 +4,9 @@ module.exports = {
     entry: './src/index.js',
     output: {
         filename: 'main.js',
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve("/home/cirno/Desktop/the_odin_project/EvGRyder.github.io", 'MyResto'),
     },
     devServer: {
-
         contentBase: './dist',
     
       },

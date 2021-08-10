@@ -3,7 +3,7 @@ function myFooter() {
 
     const githubLink = document.createElement('a')
     // githubLink.href = "https://google.com" 
-    githubLink.textContent = "Rights and stuff i guess"
+    githubLink.textContent = "Rights and stuff i guess 🄯"
 
     footer.appendChild(githubLink)
 

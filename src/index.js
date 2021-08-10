@@ -11,7 +11,7 @@ hotl.style.height = "100%"
 
 // Body
 const bodish = document.querySelector('body')
-bodish.style.background = "linear-gradient(#006600, 75%, #70483c)"
+bodish.style.background = "linear-gradient(rgba(170,240,193,1) 65%, rgba(120,94,77,1) 90%, rgba(112,72,60,1) 95%)"
 bodish.style.backgroundAttachment = "fixed"
 bodish.style.display = "flex"
 bodish.style.flexDirection = "column"
@@ -22,7 +22,6 @@ const nevvi = document.createElement('nav')
 nevvi.style.width = "auto"
 nevvi.style.display = "flex"
 nevvi.style.justifyContent = "center"
-
 
 let contentContent = contentPage()
 let aboutContent = aboutPage()
