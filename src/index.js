@@ -16,12 +16,16 @@ bodish.style.backgroundAttachment = "fixed"
 bodish.style.display = "flex"
 bodish.style.flexDirection = "column"
 bodish.style.height = "98%"
+bodish.style.margin = "0px"
 
 // Navigation
 const nevvi = document.createElement('nav')
-nevvi.style.width = "auto"
+nevvi.style.width = "100%"
 nevvi.style.display = "flex"
-nevvi.style.justifyContent = "center"
+nevvi.style.margin = "0px"
+nevvi.style.padding = "10px 0px 10px 0px"
+nevvi.style.justifyContent = "space-evenly"
+nevvi.style.backgroundColor = "black"
 
 let contentContent = contentPage()
 let aboutContent = aboutPage()
